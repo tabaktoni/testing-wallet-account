@@ -1,0 +1,25 @@
+{
+  "name": "get-starknet-example",
+  "version": "2.1.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "get-starknet": "file:~/Work/get-starknet/packages/ui",
+    "get-starknet-core": "file:~/Work/get-starknet/packages/core",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "starknet": "file:~/Work/starknet.js"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  }
+}
